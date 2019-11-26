@@ -1,0 +1,12 @@
+service: serverless-api-nodejs
+provider:
+  name: aws
+  runtime: nodejs10.x
+functions:
+  hello:
+    handler: src/lambda.handler
+    events:
+      - http:
+          path: "images"
+          method: get
+          cors: true
