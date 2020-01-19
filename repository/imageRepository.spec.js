@@ -4,7 +4,7 @@ const {
 const {
     sequelize,
     Image
-} = require('../util/db');
+} = require('../models');
 const {
     describe,
     it

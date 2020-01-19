@@ -1,6 +1,6 @@
 const {
     Image
-} = require('../util/db');
+} = require('../models');
 
 class ImageRepository {
     constructor() {

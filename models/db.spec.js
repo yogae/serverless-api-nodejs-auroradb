@@ -10,7 +10,7 @@ const {
 const {
     sequelize,
     Image
-} = require('./db');
+} = require('./index');
 
 const name = 'test';
 describe('db connection', function () {

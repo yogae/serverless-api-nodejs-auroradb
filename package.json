@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha **/*.spec.js"
   },
   "dependencies": {
     "aws-serverless-express": "^3.3.6",
@@ -19,6 +19,7 @@
     "chai": "^4.2.0",
     "dotenv-json": "^1.0.0",
     "mocha": "^6.2.2",
+    "sequelize-cli": "^5.5.1",
     "sinon": "^7.5.0"
   }
 }
