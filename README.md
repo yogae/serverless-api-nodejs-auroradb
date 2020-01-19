@@ -41,6 +41,12 @@
     node_modules/.bin/sequelize db:migrate
     ```
 
+4. serverless 배포
+
+    ```bash
+    sls deploy
+    ```
+
 ## sequelize-cli 사용법
 
 ```bash
