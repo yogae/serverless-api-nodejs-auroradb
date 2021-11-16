@@ -15,7 +15,7 @@
     "sequelize": "^5.21.3"
   },
   "devDependencies": {
-    "aws-sdk": "^2.591.0",
+    "aws-sdk": "^2.814.0",
     "chai": "^4.2.0",
     "dotenv-json": "^1.0.0",
     "mocha": "^6.2.2",
